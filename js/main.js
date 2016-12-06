@@ -29,3 +29,7 @@ jQuery(function ($) {
         }, 500);
     });
 });
+
+$(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
