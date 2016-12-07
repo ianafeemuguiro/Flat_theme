@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="images/ico/favicon.ico">
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <nav>
-      <div class="nav-wrapper blue-grey darken-2" id="455a64"><a href="null"><img .responsive-img src="images/logo.png" alt="logo"></a><a href="#" data-activates="null"><i class="material-icons">menu</i></a>
-        <ul class="righthide-on-med-and-down">
+      <div class="nav-wrapper blue-grey darken-2" id="455a64"><a class="brand-logo" href="#"><img class="responsive-img" src="images/logo.png" alt="logo"></a><a class="button-collapse" href="#" data-activates="mobile-demo"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
           <li> <a href="index.html">Home</a></li>
           <li> <a href="about-us.html">About Us</a></li>
           <li> <a href="services.html">Services</a></li>
@@ -23,9 +26,7 @@
           <li> <a href="contact-us.html">Contact</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li> <a href="index.html"> </a>
-            <Home></Home>
-          </li>
+          <li> <a href="index.html">Home </a></li>
           <li> <a href="about-us.html">About Us</a></li>
           <li> <a href="services.html">Services</a></li>
           <li> <a href="portfolio.html">Portfolio</a></li>
@@ -33,179 +34,147 @@
           <li> <a href="contact-us.html">Contact</a></li>
         </ul>
       </div>
-      <div class="slider">
-        <ul class="slides">
-          <li><img src="images/slider/bg1.jpg" alt="">
-            <div class="caption center-align"></div>
-            <h3>Powerful and Responsive</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </li>
-          <li><img src="images/slider/bg2.jpg" alt="">
-            <div class="caption left-align"></div>
-            <h3>Powerful and Responsive</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </li>
-          <li><img src="images/slider/bg3.jpg" alt="">
-            <div class="caption right-align"></div>
-            <h3>Powerful and Responsive</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.		</p>
-          </li>
-        </ul>
-      </div>
-      <section>
-        <div class="container-fluid green accent-3" id="00e676">
-          <div class="row">
-            <div class="col s12 m4-l4"><i class="icon-twitter"></i></div>
-            <div class="col s12 m3"><span>Twitter Marketing</span>
-              <p>Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum</p>
-            </div>
-            <div class="col s12 m1"><i class="icon-facebook"></i></div>
-            <div class="col s12 m3">
-              <h5 class="white-text">Facebook</h5>
-              <p class="light white-text">Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum</p>
-            </div>
-            <div class="col s12 m1"><i class="icon-goggle-plus"></i></div>
-            <div class="col s12 m3">
-              <h5 class="white-text">Facebook</h5>
-              <p class="light white-text">Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col s12 m3">
-              <h5 class="black-text">Our Lastest Projects</h5>
-              <p class="black-text light">Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum</p>
-            </div>
-            <div class="col s12 m3"><img .responsive-img src="images/portfolio/recent/item1.png" alt=""></div>
-            <div class="col s12 m3"><img .responsive-img src="images/portfolio/recent/item2.png" alt=""></div>
-            <div class="col s12 m3"><img .responsive-img src="images/portfolio/recent/item3.png" alt=""></div>
-          </div>
-        </div>
-      </section>
-      <section class="red" id="f44336">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col s12 m12">
-              <h5 class="center white-text">What our clients say</h5>
-              <p class="center white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-            <div class="col s12 m6">
-              <blockquote>
-                <h5 class="white-text">What our clients say</h5>
-                <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
-              </blockquote>
-              <blockquote>
-                <h5 class="white-text">What our clients say</h5>
-                <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-              </blockquote>
-            </div>
-            <div class="col s12 m6">
-              <blockquote>
-                <h5 class="white-text">What our clients say</h5>
-                <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
-              </blockquote>
-              <blockquote>
-                <h5 class="white-text">What our clients say</h5>
-                <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="blue-grey darken-2" id="455a64">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col s12 m3">
-              <h5 class="white-text">About Us</h5>
-              <p class="white-text">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam feugiat vitae, ultricies eget, tempro sit amet, ante.</p>
-            </div>
-            <div class="col s12 m3">
-              <h5>Company</h5>
-              <ul class="light">
-                <li>Company Overview</li>
-                <li>Meet the Team</li>
-                <li class="white-text">Our Awesome Partners</li>
-                <li class="white-text">Our Services</li>
-                <li class="white-text">Frequenly Aasked Question</li>
-                <li class="white-text">Contact Us</li>
-                <li class="white-text">Privacy Policy</li>
-                <li class="white-text">Terms of Use</li>
-                <li class="white-text">Copyright</li>
-              </ul>
-            </div>
-            <div class="col s12 m3">
-              <h5 class="white-text">Lastest Blog</h5>
-              <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
-              <div class="col s12 m8">
-                <p class="white-text">Pallentesque habitant morbi tristique senectus</p>
-                <h6 class="white-text">Posted 17 Aug 2013</h6>
-              </div>
-              <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
-              <div class="col s12 m8">
-                <p class="white-text">Pallentesque habitant morbi tristique senectus</p>
-                <h6 class="white-text">Posted 17 Aug 2013</h6>
-              </div>
-              <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
-              <div class="col s12 m8">
-                <p class="white-text">Pallentesque habitant morbi tristique senectus</p>
-                <h6 class="white-text">Posted 17 Aug 2013</h6>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <h5 class="white-text" id="ffebee">Adress</h5>
-              <p class="white-text">Twitter, Inc. </p>
-              <p class="white-text light">795 Folsom Ave, Suite 600</p>
-              <p class="white-text light">San Francisco, CA 94107</p>
-              <h5 class="white-text">Company</h5>
-              <input id="search" type="search" required placeholrder="Search...">
-              <label for="search"></label>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="white-text blue-grey darken-4" id="263238">
-        <div class="container">
-          <h6>2013 ShapeBootstrap. All Rights Reserved.</h6>
-        </div>
-      </footer>
-      <section>
-        <div class="row back-green responsive-img">
-          <div class="col s12 m4 l4">
-            <div class="row black-text">
-              <div class="col s2"><i class="icon-twitter iconos"></i></div>
-              <div class="col s10"><span>Twitter Marketing</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem asperiores inventore cupiditate eius, facere doloremque nobis tempora fugiat aut.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l4">
-            <div class="row">
-              <div class="col s2"><i class="icon-facebook iconos"></i></div>
-              <div class="col s10"><span>Facebook Marketing</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem asperiores inventore cupiditate eius, facere doloremque nobis tempora fugiat aut.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4 l4">
-            <div class="row">
-              <div class="col s2"><i class="icon-google-plus iconos"></i></div>
-              <div class="col s10"><span>Google Plus Marketing</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem asperiores inventore cupiditate eius, facere doloremque nobis tempora fugiat aut.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </nav>
-    <script src="js/jquery.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/main.js"></script>
+    <div class="slider">
+      <ul class="slides">
+        <li><img src="images/slider/bg1.jpg" alt="">
+          <div class="caption center-align"></div>
+          <h3>Powerful and Responsive</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </li>
+        <li><img src="images/slider/bg2.jpg" alt="">
+          <div class="caption left-align"></div>
+          <h3>Powerful and Responsive</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </li>
+        <li><img src="images/slider/bg3.jpg" alt="">
+          <div class="caption right-align"></div>
+          <h3>Powerful and Responsive</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </li>
+      </ul>
+    </div>
+    <section>
+      <div class="container-fluid green accent-3" id="00e676">
+        <div class="row">
+          <div class="col s12 m1"><i class="icon-twitter control-sm"></i></div>
+          <div class="col s12 m3">
+            <h5 class="white-text">Twitter Marketing</h5>
+            <p class="light white-text">Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.</p>
+          </div>
+          <div class="col s12 m1"><i class="icon-facebook control-sm"></i></div>
+          <div class="col s12 m3">
+            <h5 class="white-text">Facebook</h5>
+            <p class="light white-text">Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.</p>
+          </div>
+          <div class="col s12 m1"><i class="icon-google-plus control-sm"></i></div>
+          <div class="col s12 m3">
+            <h5 class="white-text">Google Plus Marketing</h5>
+            <p class="light white-text">Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col s12 m3">
+          <h5 class="black-text">Our Lastest Projects</h5>
+          <p class="black-text light">Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum</p>
+        </div>
+        <div class="col s12 m3 index img"><img .responsive-img src="images/portfolio/recent/item1.png" alt=""></div>
+        <div class="col s12 m3"><img .responsive-img src="images/portfolio/recent/item2.png" alt=""></div>
+        <div class="col s12 m3"><img .responsive-img src="images/portfolio/recent/item3.png" alt=""></div>
+      </div>
+    </section>
+    <section class="red" id="f44336">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col s12 m12">
+            <h5 class="center white-text">What our clients say</h5>
+            <p class="center white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col s12 m6">
+            <blockquote>
+              <h5 class="white-text">What our clients say</h5>
+              <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
+            </blockquote>
+            <blockquote>
+              <h5 class="white-text">What our clients say</h5>
+              <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+            </blockquote>
+          </div>
+          <div class="col s12 m6">
+            <blockquote>
+              <h5 class="white-text">What our clients say</h5>
+              <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
+            </blockquote>
+            <blockquote>
+              <h5 class="white-text">What our clients say</h5>
+              <p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h6 class="white-text light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h6>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blue-grey darken-2 footer-color" id="455a64">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col s12 m3">
+            <h5 class="white-text light">About Us</h5>
+            <p class="white-text light">Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam feugiat vitae, ultricies eget, tempro sit amet, ante.</p>
+          </div>
+          <div class="col s12 m3">
+            <h5 class="white-text light">Company</h5>
+            <ul class="light">
+              <li class="white-text light">Company Overview</li>
+              <li class="white-text light">Meet the Team</li>
+              <li class="white-text light">Our Awesome Partners</li>
+              <li class="white-text light">Our Services</li>
+              <li class="white-text light">Frequenly Aasked Question</li>
+              <li class="white-text light">Contact Us</li>
+              <li class="white-text light">Privacy Policy</li>
+              <li class="white-text light">Terms of Use</li>
+              <li class="white-text light">Copyright</li>
+            </ul>
+          </div>
+          <div class="col s12 m3">
+            <h5 class="white-text light">Lastest Blog</h5>
+            <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
+            <div class="col s12 m8">
+              <p class="white-text light">Pallentesque habitant morbi tristique senectus</p>
+              <h6 class="white-text light">Posted 17 Aug 2013</h6>
+            </div>
+            <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
+            <div class="col s12 m8">
+              <p class="white-text light">Pallentesque habitant morbi tristique senectus</p>
+              <h6 class="white-text light">Posted 17 Aug 2013</h6>
+            </div>
+            <div class="col s12 m4"><img .materialboxed width="70" src="images/blog/avatar.jpg" alt=""></div>
+            <div class="col s12 m8">
+              <p class="white-text light">Pallentesque habitant morbi tristique senectus</p>
+              <h6 class="white-text light">Posted 17 Aug 2013</h6>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <h5 class="white-text light">Adress</h5>
+            <p class="white-text light">Twitter, Inc. </p>
+            <p class="white-text light">795 Folsom Ave, Suite 600</p>
+            <p class="white-text light">San Francisco, CA 94107</p>
+            <h5 class="white-text light">Company</h5>
+            <input id="search" type="search" required placeholrder="Search...">
+            <label for="search"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-copyright blue-grey darken-4" id="263238">
+      <div class="container">
+        <p class="white-text light"> © 2014 Copyright Text</p><a class="grey-text text-lighten-4 right">More Links</a>
+      </div>
+    </div>
   </body>
 </html>

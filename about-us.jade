@@ -10,10 +10,6 @@ html
 		link(rel="stylesheet", href="css/main.css")
 		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
 		link(rel="stylesheet", href="images/ico/favicon.ico")
-		script(src="js/jquery.js")
-		script(src="js/materialize.min.js")
-		script(src="js/main.js")
-
 		
 	body
 		nav
@@ -37,7 +33,8 @@ html
 						a(href="contact-us.html") Contact
 				ul.side-nav#mobile-demo
 					li 
-						a(href="index.html") Home 
+						a(href="index.html") 
+						Home
 					li 
 						a(href="about-us.html") About Us
 					li 
@@ -48,77 +45,73 @@ html
 						a(href="blog.html") Blog
 					li 
 						a(href="contact-us.html") Contact
-		.slider
-			ul.slides
-				li
-					img(src= "images/slider/bg1.jpg", alt="")
-					.caption.center-align
-					h3 Powerful and Responsive
-					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				li
-					img(src= "images/slider/bg2.jpg", alt="")
-					.caption.left-align
-					h3 Powerful and Responsive
-					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				li
-					img(src= "images/slider/bg3.jpg", alt="")
-					.caption.right-align
-					h3 Powerful and Responsive
-					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 		section
 			.container-fluid#00e676.green.accent-3
 				.row
-					.col.s12.m1
-						i.icon-twitter.control-sm
-					.col.s12.m3
-						h5.white-text Twitter Marketing
-						p.light.white-text Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.
-					.col.s12.m1
-						i.icon-facebook.control-sm
-					.col.s12.m3
-						h5.white-text Facebook
-						p.light.white-text Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.
-					.col.s12.m1
-						i.icon-google-plus.control-sm
-					.col.s12.m3
-						h5.white-text Google Plus Marketing
-						p.light.white-text Pallentesque habitant morbi tristique<br>senectus et netus et malesuada fames ac <br> turpis egestas.Vestibulum tortor quam <br>feugiat vitae.
+					.col.s12.m6
+						h4.white-text.light.text-title About Us
+						p.white-text.light Pallentesque habitant morbi tristique senectus et netus et malesuada
+					.col.s12.m6
+						p.white-text.light.pull-right.text-title Home / About Us
 		section
-			.row
-				.col.s12.m3
-					h5.black-text Our Lastest Projects
-					p.black-text.light Lorem ipsum dolor sit amet consectetur adipsicing elit.Quam harum dolorum necessitatibus fugiat cum
-				.col.s12.m3.index.img
-					img(.responsive-img src="images/portfolio/recent/item1.png", alt="")
-				.col.s12.m3
-					img(.responsive-img src="images/portfolio/recent/item2.png", alt="")
-				.col.s12.m3
-					img(.responsive-img src="images/portfolio/recent/item3.png", alt="")
-		section#f44336.red
-				.container-fluid
-					.row
-						.col.s12.m12
-							h5.center.white-text What our clients say
-							p.center.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						.col.s12.m6
-							blockquote
-								h5.white-text What our clients say
-								p.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								h6.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							blockquote
-								h5.white-text What our clients say
-								p.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								h6.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-						.col.s12.m6
-							blockquote
-								h5.white-text What our clients say
-								p.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								h6.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-							blockquote
-								h5.white-text What our clients say
-								p.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								h6.white-text.light Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-		section#455a64.blue-grey.darken-2.footer-color
+			.container-fluid
+				.row
+					.col.s12.m6
+						h3 What we are
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi provident quae minima non maiores earum ea deserunt cupiditate asperiores sunt, praesentium maxime corrupti debitis quod laudantium temporibus voluptates? Quas.
+					.col.s12.m6
+						h5.white-text.center.color-box Our Skills
+						p#00695c.teal.darken-3.white-text.box-color HTML/CSS
+						p#64b5f6.blue.lighten-2.white-text.box-color Joomia
+						p#fbc02d.yellow.darken-2.white-text.box-color PHP
+						p#e53935.red.darken-1.white-text.box-color Wordpress
+
+		section
+			.container-fluid
+				.row
+					.col.s12.m12
+						h3.center Meet the Team
+						h5.center Pellentesque habitant morbi tristique senectus et netus et
+		section
+			.container-fluid
+				.row
+					.col.s12.m3
+						img.circle(.img-responsive src="images/team-member.jpg", alt="")
+						h5.center David.J Robbins
+						h6.center Senior Vice President
+						h6.center Morbi accumsan ipsum velit. Nam nec<br>tellus a odio tincidunt auctor.
+						i.icon-facebook
+						i.icon-twitter
+						i.icon-google-plus
+						i.icon-linkedin
+					.col.s12.m3
+						img.circle(.img-responsive src="images/team-member.jpg", alt="")
+						h5.center David.J Robbins
+						h6.center Senior Vice President
+						h6.center Morbi accumsan ipsum velit. Nam nec<br>tellus a odio tincidunt auctor.
+						i.icon-facebook
+						i.icon-twitter
+						i.icon-google-plus
+						i.icon-linkedin
+					.col.s12.m3
+						img.circle(.img-responsive src="images/team-member.jpg", alt="")
+						h5.center David.J Robbins
+						h6.center Senior Vice President
+						h6.center Morbi accumsan ipsum velit. Nam nec<br>tellus a odio tincidunt auctor.
+						i.icon-facebook
+						i.icon-twitter
+						i.icon-google-plus
+						i.icon-linkedin
+					.col.s12.m3
+						img.circle(.img-responsive src="images/team-member.jpg", alt="")
+						h5.center David.J Robbins
+						h6.center Senior Vice President
+						h6.center Morbi accumsan ipsum velit. Nam nec<br>tellus a odio tincidunt auctor.
+						i.icon-facebook
+						i.icon-twitter
+						i.icon-google-plus
+						i.icon-linkedin
+		section#455a64.blue-grey.darken-2
 				.container-fluid
 					.row
 						.col.s12.m3
@@ -165,11 +158,5 @@ html
 			.container
 				p.white-text.light  © 2014 Copyright Text
 				a.grey-text.text-lighten-4.right More Links
-		
 	
-
-
-
-
-
-
+	
